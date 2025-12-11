@@ -46,7 +46,7 @@ export default function Home() {
               {" "}
               360
             </span>
-            <sup className="text-2xl md:text-3xl">™</sup>
+            <sup className="text-emerald-500 top-[-1.5em] text-2xl md:text-3xl">™</sup>
           </h1>
 
           <p className="mx-auto mb-4 max-w-2xl text-xl text-zinc-600 dark:text-zinc-400 md:text-2xl">
