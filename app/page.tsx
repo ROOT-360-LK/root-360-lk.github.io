@@ -35,7 +35,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
 
         <div className="relative z-10 text-center">
-          <Badge className="mb-6 px-4 py-2 text-sm font-medium" variant="secondary">
+          <Badge
+            className="mb-6 px-4 py-2 text-sm font-medium"
+            variant="secondary"
+          >
             <Sparkles className="mr-2 h-4 w-4" />
             Next-Generation Software Solutions
           </Badge>
@@ -46,7 +49,9 @@ export default function Home() {
               {" "}
               360
             </span>
-            <sup className="text-emerald-500 top-[-1.5em] text-2xl md:text-3xl">™</sup>
+            <sup className="text-emerald-500 top-[-1.5em] text-2xl md:text-3xl">
+              ™
+            </sup>
           </h1>
 
           <p className="mx-auto mb-4 max-w-2xl text-xl text-zinc-600 dark:text-zinc-400 md:text-2xl">
@@ -55,8 +60,8 @@ export default function Home() {
 
           <p className="mx-auto mb-8 max-w-3xl text-base text-zinc-500 dark:text-zinc-500">
             From concept to deployment, we deliver cutting-edge technology
-            solutions that drive innovation, scalability, and success in the digital
-            age.
+            solutions that drive innovation, scalability, and success in the
+            digital age.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
@@ -64,7 +69,7 @@ export default function Home() {
               size="lg"
               className="group bg-gradient-to-r from-green-500 to-emerald-600 text-lg hover:from-green-600 hover:to-emerald-700"
             >
-              Start Your Project
+              <a href="mailto:root360lk@gmail.com?subject=Schedule a Call&body=Dear Sales Team,%0D%0A%0D%0AI hope this email finds you well.%0D%0A%0D%0AMy name is [Your Full Name], and I am [Your Position, e.g., Head of Operations] at [Your Company Name], a [brief description, e.g., 75-person SaaS company in the fintech space].%0D%0A%0D%0AWe are actively evaluating solutions to [specific need, e.g., modernize our customer support and workflow automation]. After reviewing your platform, I believe [Company/Product Name] could be a strong fit for our team.%0D%0A%0D%0AI’d like to schedule a brief 15–20 minute discovery call to:%0D%0A• Better understand your key features and capabilities%0D%0A• Discuss how your solution aligns with our current challenges%0D%0A• Explore pricing and next steps%0D%0A%0D%0AAre you or a member of your team available for a quick call next week? Please feel free to suggest a few time slots that work best, or you can book directly on my calendar here: [Insert Calendly/link to scheduling tool, if you have one].%0D%0A%0D%0AThank you, and I look forward to speaking soon.%0D%0A%0D%0ABest regards,%0D%0A[Your Full Name]%0D%0A[Your Position]%0D%0A[Your Company Name]%0D%0A[Your Phone Number]%0D%0A[Your Email Address]">Start Your Project</a>
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
             <Button size="lg" variant="outline" className="text-lg">
@@ -121,7 +126,8 @@ export default function Home() {
               Comprehensive Software Services
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-              Full-spectrum technology solutions designed to elevate your business
+              Full-spectrum technology solutions designed to elevate your
+              business
             </p>
           </div>
 
@@ -140,8 +146,8 @@ export default function Home() {
                     <Code2 className="mb-2 h-10 w-10 text-green-500" />
                     <CardTitle>Custom Development</CardTitle>
                     <CardDescription>
-                      Bespoke software solutions tailored to your unique business
-                      requirements
+                      Bespoke software solutions tailored to your unique
+                      business requirements
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -277,7 +283,8 @@ export default function Home() {
                     <Shield className="mb-2 h-10 w-10 text-green-500" />
                     <CardTitle>Security & Compliance</CardTitle>
                     <CardDescription>
-                      Enterprise-grade security measures and compliance standards
+                      Enterprise-grade security measures and compliance
+                      standards
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -334,7 +341,8 @@ export default function Home() {
                     <Zap className="mb-2 h-10 w-10 text-green-500" />
                     <CardTitle>Performance Optimization</CardTitle>
                     <CardDescription>
-                      Lightning-fast applications with exceptional user experience
+                      Lightning-fast applications with exceptional user
+                      experience
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -360,7 +368,8 @@ export default function Home() {
                     <TrendingUp className="mb-2 h-10 w-10 text-green-500" />
                     <CardTitle>Growth Strategy</CardTitle>
                     <CardDescription>
-                      Scale your business with data-driven insights and solutions
+                      Scale your business with data-driven insights and
+                      solutions
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
@@ -482,8 +491,8 @@ export default function Home() {
               Cutting-Edge Technologies
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-              We leverage the latest and most reliable technologies to build your
-              solutions
+              We leverage the latest and most reliable technologies to build
+              your solutions
             </p>
           </div>
 
@@ -552,19 +561,19 @@ export default function Home() {
             Ready to Transform Your Business?
           </h2>
           <p className="mb-8 text-xl text-green-50">
-            Let&apos;s build something extraordinary together. Get started with a
-            free consultation.
+            Let&apos;s build something extraordinary together. Get started with
+            a free consultation.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" variant="secondary" className="text-lg">
-              Contact Us Today
+            <Button size="lg" variant="secondary" className="text-lg" asChild>
+              <a href="mailto:root360lk@gmail.com?subject=Business Inquiry&body=Dear Sales Team,%0D%0A%0D%0AI hope this email finds you well.%0D%0A%0D%0AMy name is [Your Name], and I am [Your Position] at [Your Company Name].%0D%0A%0D%0AWe are exploring software solutions to [your need]. I was impressed by your [specific product/feature].%0D%0A%0D%0ACould you please share:%0D%0A• Key features%0D%0A• Pricing details%0D%0A• Demo/trial options%0D%0A%0D%0AI'd appreciate a quick call or more information.%0D%0A%0D%0AThank you,%0D%0A[Your Name]%0D%0A[Your Position]%0D%0A[Your Company]%0D%0A[Phone]%0D%0A[Email]">
+                Contact Us Today
+              </a>
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg"
-            >
-              Schedule a Call
+            <Button size="lg" variant="outline" className="text-lg" asChild>
+              <a href="mailto:root360lk@gmail.com?subject=Schedule a Call&body=Dear Sales Team,%0D%0A%0D%0AI hope this email finds you well.%0D%0A%0D%0AMy name is [Your Full Name], and I am [Your Position, e.g., Head of Operations] at [Your Company Name], a [brief description, e.g., 75-person SaaS company in the fintech space].%0D%0A%0D%0AWe are actively evaluating solutions to [specific need, e.g., modernize our customer support and workflow automation]. After reviewing your platform, I believe [Company/Product Name] could be a strong fit for our team.%0D%0A%0D%0AI’d like to schedule a brief 15–20 minute discovery call to:%0D%0A• Better understand your key features and capabilities%0D%0A• Discuss how your solution aligns with our current challenges%0D%0A• Explore pricing and next steps%0D%0A%0D%0AAre you or a member of your team available for a quick call next week? Please feel free to suggest a few time slots that work best, or you can book directly on my calendar here: [Insert Calendly/link to scheduling tool, if you have one].%0D%0A%0D%0AThank you, and I look forward to speaking soon.%0D%0A%0D%0ABest regards,%0D%0A[Your Full Name]%0D%0A[Your Position]%0D%0A[Your Company Name]%0D%0A[Your Phone Number]%0D%0A[Your Email Address]">
+                Schedule a Call
+              </a>
             </Button>
           </div>
         </div>
